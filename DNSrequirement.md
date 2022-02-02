@@ -1,6 +1,6 @@
 # IP Addresses
 
-Quando si utilizza openshift-installer in ambiente vSphere richiede due IP addresses statici, vengono forniti infase di installazione tramite script:
+Quando si utilizza ``openshift-installer`` in ambiente vSphere richiede due IP addresses statici, vengono forniti infase di installazione tramite script:
 
 * **API** - usato per accedere alle cluster API.
 * **Ingress** - usato per il traffico in ingresso alle applicazioni.

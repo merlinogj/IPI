@@ -1,15 +1,15 @@
 # Cluster Installation
 
 At this point, you are ready to perform the OpenShift installation. You have two choices for installing your cluster on
-vSphere, Installer-Provided Infrastructure (IPI) or User-Provided Infrastructure (UPI). See below for an example of an
+vSphere, Installer-Provided Infrastructure (IPI). See below for an example of an
 IPI install.
-
-To see a guided example of a UPI install, see [Install: User-Provided Infrastructure](install_upi.md)
 
 ## Example: Installer-Provided Infrastructure (IPI)
 
 The steps for performing an IPI-based install are outlined [here][cloud-install]. Following this guide you may begin at
 the Download step.
+
+The openshift-installer, pull secret ad oc are downloadable [here][vSphere-IPI-Download]
 
 ### Trust vCenter API
 The installer requires access to the vCenter API. The vCenter's root CA certificates must be added to the system trust before connecting to the API. The certs can be downloaded from the vCenter's homepage:
@@ -101,3 +101,4 @@ The OpenShift console is available via the kubeadmin login provided by the insta
 ![OpenShift web console](images/install_console.png)
 
 [cloud-install]: https://console.redhat.com/openshift/create
+[vSphere-IPI-Dowload]: https://console.redhat.com/openshift/install/vsphere/installer-provisioned

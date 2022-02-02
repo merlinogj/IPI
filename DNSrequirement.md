@@ -12,10 +12,10 @@ A virtual IP address for each of these should be specified in the [install confi
 I record DNS devono essere propriamente definiti.
 The records should have the following values:
 
-| Name                                  | Value       | esempio        |
-| -                                     |  -          |  -             |
-| `api.<cluster-name>.<base-domain>`    | API VIP     | 192.168.1.24   |
-| `*.apps.<cluster-name>.<base-domain>` | Ingress VIP | 192.168.1.25   |
+| Name                                  | Esempio               | Value       | esempio        |
+| -                                     | -                     |  -          |  -             |
+| `api.<cluster-name>.<base-domain>`    | api.oc.ocp.lab        | API VIP     | 192.168.1.24   |
+| `*.apps.<cluster-name>.<base-domain>` | *.apps.oc.ocp.lab     | Ingress VIP | 192.168.1.25   |
 
 Note that `cluster-name` and `base-domain` are variables custom to an installation and
 must correspond to the values specified in the [install configuration](install.md#create-configuration).
